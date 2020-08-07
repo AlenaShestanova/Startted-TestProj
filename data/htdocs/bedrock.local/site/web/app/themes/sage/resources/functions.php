@@ -90,3 +90,8 @@ Container::getInstance()
             'view' => require dirname(__DIR__).'/config/view.php',
         ]);
     }, true);
+add_action('wp_enqueue_scripts','sage_media');
+echo get_stylesheet_uri();
+function sage_media(){
+wp_enqueue_style('media_style',get_template_directory_uri() . '/assets/styles/style.css' );
+}
