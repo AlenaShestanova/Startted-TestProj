@@ -71,6 +71,7 @@ html{
   margin-right: 10px;
   padding: 10px 5px;
 outline: none!important;
+  background:white;
 }
 
 .nav__select:hover{
@@ -101,15 +102,12 @@ select:active,select:focus{
   width: 100%;
   border-radius:24px;
   background: url("../images/Group.jpg");
-  background-size: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
   background-position: center;
   padding:95px 0px;
   margin-top: 20px;
-
   color:#fff;
-
-
-
 }
 
 .image-bloclk___title{
@@ -166,6 +164,7 @@ color:white;
   outline: none;
   border:none;
   color:#828282;
+  background: white;
 }
 .shadow-block{
   width: 100%;
