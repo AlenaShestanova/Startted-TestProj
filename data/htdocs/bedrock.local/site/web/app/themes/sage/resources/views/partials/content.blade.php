@@ -1,3 +1,5 @@
+
+
  <section class="food">
             <div class="container">
                 <h1 class="food__title">Рестораны</h1>
@@ -22,7 +24,7 @@ if ( $query->have_posts() ) {
                   <img src='<?php the_field('img');?>'>
                             <h2><?php the_field('rest_name');?> </h2>
                             <div class="food__text">
-                             <?php the_field('kitchen_type');?>
+                              <p> <?php the_terms(get_the_ID(),'kitchen','',' &#149 ','');?></p>
                             </div>
                         </div>
         <?php

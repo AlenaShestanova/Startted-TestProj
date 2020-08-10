@@ -78,7 +78,7 @@ outline: none!important;
 }
 select:active,select:focus{
   outline: none!important;
-  border: none;
+
 
 }
 .menu_mobile{
@@ -203,7 +203,14 @@ height: 80px;
   width: 32%;
   margin-bottom: 20px;
 }
+.food__text a{
+  color:#A9A9A9;
+  font-size: 14px;
 
+}
+.food__container_elem img{
+  width:100%;
+}
 .food__container_elem h2{
   margin: 3px 0px;
 }

@@ -53,10 +53,13 @@
     display: block;
     font-size: 40px;
     right: 0;
-    z-index: 50;
+
 
   }
-
+  .menu_mobile i{
+    z-index: 200;
+    height: 100%;
+  }
   /*    .nav__items {*/
   /*right: 0;*/
   /*    }*/
@@ -65,7 +68,7 @@
     transition: 1s;
     top: 0;
     right:-250px;
-    z-index: 100;
+
     display: flex;
     flex-flow: column;
     height: 100%;

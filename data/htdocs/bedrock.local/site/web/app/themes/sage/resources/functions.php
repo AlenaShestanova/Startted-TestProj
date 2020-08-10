@@ -136,7 +136,7 @@ function register_post_types(){
 		//'map_meta_cap'      => null, // Ставим true чтобы включить дефолтный обработчик специальных прав
 		'hierarchical'        => false,
 		'supports'            => [ 'title', 'editor','thumbnail' ], // 'title','editor','author','thumbnail','excerpt','trackbacks','custom-fields','comments','revisions','page-attributes','post-formats'
-		'taxonomies'          => [],
+		'taxonomies'          => array('kitchen'),
 		'has_archive'         => false,
 		'rewrite'             => true,
 		'query_var'           => true,
@@ -147,23 +147,23 @@ add_action( 'init', 'create_taxonomy' );
 function create_taxonomy(){
 
 	// список параметров: wp-kama.ru/function/get_taxonomy_labels
-	register_taxonomy( 'kitchen', [ 'post' ], [
+	register_taxonomy( 'kitchen', [ 'restoran' ], [
 		'label'                 => '', // определяется параметром $labels->name
 		'labels'                => [
-			'name'              => 'Genres',
-			'singular_name'     => 'Genre',
-			'search_items'      => 'Search Genres',
-			'all_items'         => 'All Genres',
+			'name'              => 'Виды кухонь',
+			'singular_name'     => 'Вид кухни',
+			'search_items'      => 'Найти вид кухни',
+			'all_items'         => 'Все виды кухонь',
 			'view_item '        => 'View Genre',
 			'parent_item'       => 'Parent Genre',
 			'parent_item_colon' => 'Parent Genre:',
-			'edit_item'         => 'Edit Genre',
-			'update_item'       => 'Update Genre',
-			'add_new_item'      => 'Add New Genre',
-			'new_item_name'     => 'New Genre Name',
-			'menu_name'         => 'Genre',
+			'edit_item'         => 'Редактировать',
+			'update_item'       => 'Обновить',
+			'add_new_item'      => 'Добавить',
+			'new_item_name'     => 'Новый вид кухни',
+			'menu_name'         => 'Виды кухонь',
 		],
-		'description'           => '', // описание таксономии
+		'description'           => 'Виды кухонь', // описание таксономии
 		'public'                => true,
 		// 'publicly_queryable'    => null, // равен аргументу public
 		// 'show_in_nav_menus'     => true, // равен аргументу public

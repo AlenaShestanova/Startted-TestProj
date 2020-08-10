@@ -6,6 +6,9 @@
                           <div class="nav__logo">
                               <a href="#">immenu.com</a>
                           </div>
+                          <div  class="menu_mobile" onclick="OpenMenu()">
+                               <i class="fas fa-bars"></i>
+                          </div>
                               <div id='mobile' class="nav__items">
                               <div class="nav__search nav__search_header mobile_item">
                                   <a href="#"><i class="fas fa-search"></i></a>
@@ -27,11 +30,10 @@
                              <a href="#" <i class="far fa-user"></i></a>
                           </div>
 
+
                           </div>
 
-                          <div  class="menu_mobile" onclick="OpenMenu()">
-                              <i class="fas fa-bars"></i>
-                          </div>
+
                       </nav>
                   </div>
               </header>
@@ -55,7 +57,7 @@
           <hr color="#f2f2f2" size='3px'>
 
           <!-- Секция выбора -->
-          <section>
+  <section>
               <div class="shadow-block">
                   <div class="container">
                       <ul class="button-block">
@@ -74,6 +76,7 @@
                       </div>
                   </div>
               </div>
+
           </section>
 
     </header>
