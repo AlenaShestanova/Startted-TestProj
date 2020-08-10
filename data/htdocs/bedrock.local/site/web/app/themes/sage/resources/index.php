@@ -1,4 +1,3 @@
-<?php get_header()?>
+<?php
 
-<?php get_footer()?>
 // this file is deliberately blank
