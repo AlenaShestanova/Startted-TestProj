@@ -12,15 +12,12 @@
 // @import "~some-node-module";
 
 /** Import theme styles */
-@import "common/global";
-@import "components/buttons";
-@import "components/comments";
-@import "components/forms";
-@import "components/wp-classes";
-@import "layouts/header";
-@import "layouts/sidebar";
-@import "layouts/footer";
-@import "layouts/pages";
-@import "layouts/posts";
-@import "layouts/tinymce";
+
+@import "custom_styles/header";
+@import "custom_styles/search_block";
+@import "custom_styles/menu";
+@import "custom_styles/restorans";
+@import "custom_styles/footer";
+@import "custom_styles/media";
+
 

@@ -93,8 +93,6 @@ Container::getInstance()
 add_action('wp_enqueue_scripts','sage_media');
 
 function sage_media(){
-wp_enqueue_style('media_style',get_template_directory_uri() . '/assets/styles/style.css' );
-wp_enqueue_style('media_css',get_template_directory_uri() . '/assets/styles/media.css' );
 wp_enqueue_script('script_js',get_template_directory_uri() . '/assets/scripts/script.js' );
 }
 add_action('after_setup_theme','menu_registr');
