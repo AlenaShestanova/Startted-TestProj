@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="99c9479e-c780-47e1-8690-00bc2f49219b" name="Default Changelist" comment="Подключение шрифтов">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="99c9479e-c780-47e1-8690-00bc2f49219b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,7 +38,7 @@
       <option name="presentableId" value="Default" />
       <updated>1596716507054</updated>
       <workItem from="1596716520621" duration="136000" />
-      <workItem from="1597144374698" duration="12299000" />
+      <workItem from="1597144374698" duration="15148000" />
     </task>
     <task id="LOCAL-00001" summary="Разделение стилей и добавление в main.scss">
       <created>1597149422449</created>
@@ -62,11 +61,29 @@
       <option name="project" value="LOCAL" />
       <updated>1597158362111</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Подключение шрифтов">
+      <created>1597158462632</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1597158462632</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Разделение стилей и добавление в main.scss" />
@@ -75,10 +92,18 @@
     <option name="LAST_COMMIT_MESSAGE" value="Подключение шрифтов" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="612" y="65" key="CommitChangelistDialog2" timestamp="1597158388697">
+    <state x="612" y="65" key="CommitChangelistDialog2" timestamp="1597158460467">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
-    <state x="612" y="65" key="CommitChangelistDialog2/0.0.1600.870@0.0.1600.870" timestamp="1597158388697" />
+    <state x="612" y="65" key="CommitChangelistDialog2/0.0.1600.870@0.0.1600.870" timestamp="1597158460467" />
+    <state x="304" y="100" key="DiffContextDialog" timestamp="1597158456168">
+      <screen x="0" y="0" width="1600" height="870" />
+    </state>
+    <state x="304" y="100" key="DiffContextDialog/0.0.1600.870@0.0.1600.870" timestamp="1597158456168" />
+    <state x="875" y="203" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1597158446718">
+      <screen x="0" y="0" width="1600" height="870" />
+    </state>
+    <state x="875" y="203" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.1600.870@0.0.1600.870" timestamp="1597158446718" />
     <state x="907" y="191" width="672" height="678" key="search.everywhere.popup" timestamp="1597152479311">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
