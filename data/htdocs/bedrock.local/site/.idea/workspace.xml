@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99c9479e-c780-47e1-8690-00bc2f49219b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/web/app/themes/sage/resources/views/page-index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/sage/resources/assets/styles/custom_styles/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/web/app/themes/sage/resources/assets/styles/custom_styles/_footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/sage/resources/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/app/themes/sage/resources/functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/sage/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/app/themes/sage/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/sage/resources/views/page.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/app/themes/sage/resources/views/page.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/sage/resources/views/partials/content-page.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/app/themes/sage/resources/views/partials/content-page.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/sage/resources/views/partials/content.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/app/themes/sage/resources/views/partials/content.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/sage/resources/views/template-custom.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/app/themes/sage/resources/assets/styles/custom_styles/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/web/app/themes/sage/resources/assets/styles/custom_styles/_header.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +39,7 @@
       <option name="presentableId" value="Default" />
       <updated>1596716507054</updated>
       <workItem from="1596716520621" duration="136000" />
-      <workItem from="1597144374698" duration="11200000" />
+      <workItem from="1597144374698" duration="12099000" />
     </task>
     <task id="LOCAL-00001" summary="Разделение стилей и добавление в main.scss">
       <created>1597149422449</created>
@@ -55,7 +48,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597149422449</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Перенос контента в секцию контента">
+      <created>1597157304805</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1597157304805</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -63,13 +63,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Разделение стилей и добавление в main.scss" />
-    <option name="LAST_COMMIT_MESSAGE" value="Разделение стилей и добавление в main.scss" />
+    <MESSAGE value="Перенос контента в секцию контента" />
+    <option name="LAST_COMMIT_MESSAGE" value="Перенос контента в секцию контента" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="612" y="65" key="CommitChangelistDialog2" timestamp="1597149418354">
+    <state x="612" y="65" key="CommitChangelistDialog2" timestamp="1597157302412">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
-    <state x="612" y="65" key="CommitChangelistDialog2/0.0.1600.870@0.0.1600.870" timestamp="1597149418354" />
+    <state x="612" y="65" key="CommitChangelistDialog2/0.0.1600.870@0.0.1600.870" timestamp="1597157302412" />
     <state x="907" y="191" width="672" height="678" key="search.everywhere.popup" timestamp="1597152479311">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
