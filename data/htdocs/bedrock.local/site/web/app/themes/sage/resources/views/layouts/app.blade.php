@@ -9,7 +9,7 @@
 @include ('partials.header')
 
 
-@include('partials.content')
+@yield('content')
 
 
 @php do_action('get_footer') @endphp

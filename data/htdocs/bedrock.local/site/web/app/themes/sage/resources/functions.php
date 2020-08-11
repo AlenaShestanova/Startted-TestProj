@@ -145,7 +145,7 @@ add_action( 'init', 'create_taxonomy' );
 function create_taxonomy(){
 
 	// список параметров: wp-kama.ru/function/get_taxonomy_labels
-	register_taxonomy( 'kitchen', array('restoran','post') , [
+	register_taxonomy( 'kitchen', ['restoran','post'], [
 		'label'                 => '', // определяется параметром $labels->name
 		'labels'                => [
 			'name'              => 'Виды кухонь',
